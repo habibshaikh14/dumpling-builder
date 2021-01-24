@@ -1,0 +1,7 @@
+.IceCream {
+    display: grid;
+	grid-template-columns: 10rem 4rem 10rem;
+	grid-template-rows: auto 6rem auto 4rem 20rem;
+	justify-content: center;
+	justify-items: center;
+}
