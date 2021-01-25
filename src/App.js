@@ -8,7 +8,7 @@ class App extends Component {
       <div>
         HAHAHAHAHA
         <Layout>
-          <IceCreamBuilder/>
+          <IceCreamBuilder />
         </Layout>
       </div>
     );
