@@ -6,7 +6,7 @@ class DumplingBuilder extends Component {
   state = {
     ingredients: {
       vanilla: 1,
-      chochlate: 1,
+      chochlate: 2,
       strawberry: 1,
     },
   };
