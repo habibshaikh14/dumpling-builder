@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Layout from "./components/Layout/Layout";
-import IceCreamBuilder from "./containers/IceCreanBuilder/IceCreamBuilder";
+import DumplingBuilder from "./containers/DumplingBuilder/DumplingBuilder";
 
 class App extends Component {
   render() {
@@ -8,7 +8,7 @@ class App extends Component {
       <div>
         HAHAHAHAHA
         <Layout>
-          <IceCreamBuilder />
+          <DumplingBuilder />
         </Layout>
       </div>
     );

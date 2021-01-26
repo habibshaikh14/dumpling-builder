@@ -1,8 +1,8 @@
 import { Component } from "react";
-import IceCream from "../../components/IceCream/IceCream";
+import Dumpling from "../../components/Dumpling/Dumpling";
 import Wrapper from "../../hoc/Wrapper";
 
-class IceCreamBuilder extends Component {
+class DumplingBuilder extends Component {
   state = {
     ingredients: {
       vanilla: 1,
@@ -14,11 +14,11 @@ class IceCreamBuilder extends Component {
   render() {
     return (
       <Wrapper>
-        <IceCream ingredients={this.state.ingredients} />
+        <Dumpling ingredients={this.state.ingredients} />
         <div>Build Controls</div>
       </Wrapper>
     );
   }
 }
 
-export default IceCreamBuilder;
+export default DumplingBuilder;

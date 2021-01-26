@@ -1,32 +1,15 @@
-.cone {
-  clip-path: polygon(0 0, 100% 0, 50% 100%);
-  background-color: antiquewhite;
-  width: 10%;
-  height: 30%;
-  z-index: -1;
+.stick {
+  background-color: #a28d5e;
+  width: 8px;
+  height: 120px;
   margin: auto;
-  background: repeating-linear-gradient(
-    45deg,
-    burlywood,
-    burlywood 2rem,
-    wheat 2rem,
-    wheat 2.3rem
-  );
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
-.cup {
-  height: 13%;
-  width: 80%;
-  background: linear-gradient(#f08e4a, #e27b36);
-  border-radius: 0 0 30px 30px;
-  box-shadow: inset -15px 0 #c15711;
-  margin: 2% auto;
-}
-
-.scoop {
-  width: 10%;
-  height: 20%;
-  top: 7%;
+.dumpling {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   margin: auto;
   position: relative;

@@ -1,22 +1,22 @@
-import classes from "./IceCreamIngredient.module.css";
+import classes from "./DumplingIngredient.module.css";
 import PropTypes from "prop-types";
 
-const iceCreamIngredient = (props) => {
+const dumplingIngredient = (props) => {
   let ingredient = null;
   switch (props.type) {
-    case "cone":
-      ingredient = <div className={classes.cone}></div>;
+    case "stick":
+      ingredient = <div className={classes.stick}></div>;
       break;
     case "vanilla":
       ingredient = (
-        <div className={`${classes.scoop} ${classes.vanilla}`}>
+        <div className={`${classes.dumpling} ${classes.vanilla}`}>
           <div className={classes.seeds1}></div>
         </div>
       );
       break;
     case "chochlate":
       ingredient = (
-        <div className={`${classes.scoop} ${classes.chochlate}`}>
+        <div className={`${classes.dumpling} ${classes.chochlate}`}>
           <div className={classes.seeds1}></div>
           <div className={classes.seeds2}></div>
         </div>
@@ -24,7 +24,7 @@ const iceCreamIngredient = (props) => {
       break;
     case "strawberry":
       ingredient = (
-        <div className={`${classes.scoop} ${classes.strawberry}`}>
+        <div className={`${classes.dumpling} ${classes.strawberry}`}>
           <div className={classes.seeds2}></div>
         </div>
       );
@@ -35,8 +35,8 @@ const iceCreamIngredient = (props) => {
   return ingredient;
 };
 
-iceCreamIngredient.propTypes = {
+dumplingIngredient.propTypes = {
   type: PropTypes.string.isRequired,
 };
 
-export default iceCreamIngredient;
+export default dumplingIngredient;
